@@ -13,9 +13,6 @@
 	"initializeCommand": "mkdir -p ${env:HOME}/.m2 ${env:HOME}/.gradle",
 	"onCreateCommand": "sudo chown vscode:vscode /home/vscode/.m2 /home/vscode/.gradle",
 	"remoteUser": "vscode",
-	"features": {
-		"docker-in-docker": "latest"
-	},
 	"extensions": [
 		"vscjava.vscode-java-pack",
 		"redhat.vscode-xml",
